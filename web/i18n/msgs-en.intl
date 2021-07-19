@@ -1,0 +1,43 @@
+
+appName=Bones UI
+
+welcome=Welcome to <i>Bones_UI</i>,<br> your App framework.
+
+print=Print
+
+language=Language
+
+welcomeLogin=Access
+byLogout=Log Out
+logoutConfirm=Do you really want to leave?
+
+routeHome=Home
+routeLogin=Log in
+routeRegister=Register
+routeTerms=Terms
+routeProfile=Profile
+routeHelp=Help
+routeLogout=Logout
+
+labelEmail=E-mail
+labelPassword=Password
+labelRegister=Register
+
+labelName=Name
+labelUsername=Username
+labelGender=Gender
+labelBirth=Birth
+labelPicture=Picture
+labelMyDescription=My Description
+
+btnLogin=Log in
+btnRegister=Register
+btnSave=Save
+btnLogout=Log out
+btnSend=Send
+btnAddPhoto=Add Photo
+btnOK=OK
+
+textSending=Sending...
+
+loginError=Invalid credential!

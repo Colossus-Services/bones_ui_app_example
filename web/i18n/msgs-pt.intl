@@ -1,0 +1,43 @@
+
+appName=Bones UI
+
+welcome=Bem-vindo ao <i>Bones_UI</i>,<br> seu framework para Apps.
+
+print=Imprimir
+
+language=Língua
+
+welcomeLogin=Acesso
+byLogout=Sair
+logoutConfirm=Deseja mesmo sair?
+
+routeHome=Capa
+routeLogin=Entrar
+routeRegister=Cadastrar
+routeTerms=Termos
+routeProfile=Perfil
+routeHelp=Ajuda
+routeLogout=Sair
+
+labelEmail=E-mail
+labelPassword=Senha
+labelRegister=Registrar
+
+labelName=Nome
+labelUsername=Usuário
+labelGender=Gênero
+labelBirth=Nascimento
+labelPicture=Foto
+labelMyDescription=Minha Descrição
+
+btnLogin=Entrar
+btnRegister=Registrar
+btnSave=Salvar
+btnLogout=Sair
+btnSend=Enviar
+btnAddPhoto=+ Foto
+btnOK=OK
+
+textSending=Enviando...
+
+loginError=Usuário ou senha inválido!

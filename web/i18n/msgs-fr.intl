@@ -1,0 +1,43 @@
+
+appName=Bones UI
+
+welcome=Bienvenue dans <i>Bones_UI</i>,<br> votre framework d'applications.
+
+print=Imprimer
+
+language=Langue
+
+welcomeLogin=S'identifier
+byLogout=Se déconnecter
+logoutConfirm=Voulez-vous vraiment partir?
+
+routeHome=Accueil
+routeLogin=Entrer
+routeRegister=S'inscrire
+routeTerms=Termes
+routeProfile=Profil
+routeHelp=Aide
+routeLogout=Se déconnecter
+
+labelEmail=E-mail
+labelPassword=Mot de passe
+labelRegister=S'inscrire
+
+labelName=Nom
+labelUsername=Nom d'utilisateur
+labelGender=Genre
+labelBirth=Naissance
+labelPicture=Photo
+labelMyDescription=Ma Description
+
+btnLogin=Entrer
+btnRegister=S'inscrire
+btnSave=Sauver
+btnLogout=Sortie
+btnSend=Envoyer
+btnAddPhoto=Ajouter Photo
+btnOK=D'accord
+
+textSending=Envoi en cours...
+
+loginError=Usulettres de créance non valide!

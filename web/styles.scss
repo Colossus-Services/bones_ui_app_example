@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+//////////////////////////////////
+// Custom Bootstrap Theme Colors:
+//////////////////////////////////
+
+$primary: #4a6a99;
+
+$light: #f3f8ff;
+$dark: #1a2034;
+
+$body-bg: #e3e9f5;
+$body-color: $dark;
+
+$brand-color: rgb(124, 200, 255);
+
+// Import Bootstrap SCSS from package `bootstrap_sass`:
+@import "package:bootstrap_sass/scss/bootstrap";
+
+///////////////////////
+// My SCSS Definitions:
+///////////////////////
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#output {
+  padding: 0px;
+  width: 100%;
+}
+
+.ui-root {
+  width: 100%;
+}
+
+
+.top-menu {
+  background-color: rgba(0, 0, 0, 0.10) !important;
+  background: linear-gradient(to bottom, rgb(17 28 45) 0%, rgba(28, 42, 57, 0.71) 94%, rgba(12, 29, 47, 0.77) 100%);
+  box-shadow: 0px 3px 16px 4px rgba(0, 0, 0, 0.80);
+  text-align: center;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: $brand-color !important;
+  text-shadow: 0px 2px 4px rgba(3, 17, 26, 0.3);
+}
+
+.content {
+  padding: 75px 10px 10px 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.language-dialog {
+  background-color: rgba(46, 57, 72, 0.60) !important;
+}
+
+.language-dialog-box {
+  color: $dark;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px;
+  border-radius: 32px;
+  min-width: 350px;
+  max-width: 95vw;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.rounded {
+  border-radius: 4px !important;
+}
+
+.rounded-lg {
+  border-radius: 8px !important;
+}
+
+.rounded-lg2 {
+  border-radius: 10px !important;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+input, textarea, select, table, button {
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+input, textarea, select {
+  background-color: rgba(255, 255, 255, 0.70);
+  border-color: rgba(0, 0, 0, 0.30);
+}
+
+.error-text {
+  color: $danger;
+  padding: 2px;
+  max-width: 180px;
+}
+
+%panel {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.login-panel {
+  @extend %panel;
+}
+
+.register-panel {
+  @extend %panel;
+}
+
+.terms-panel {
+  @extend %panel;
+
+  padding: 20px;
+  text-align: left;
+  border-radius: 16px;
+  overflow-y: scroll;
+}
+
+.footer {
+  background-color: rgba(3, 13, 42, 0.075);
+  border-radius: 6px 0 0 0;
+  padding: 2px 4px 1px 8px
+}
