@@ -17,7 +17,7 @@ class AppTopMenu extends UIComponent {
   dynamic render() => '''
   <nav class="top-menu navbar navbar-dark fixed-top bg-blur navbar-expand-md">
     <a class="navbar-brand" navigate="home">
-    <ui-svg width="20px" height="20px" src="${ BootstrapIcons.getIconPath('app-indicator') }"></ui-svg>
+    <ui-svg width="20px" height="20px" src="${BootstrapIcons.getIconPath('app-indicator')}"></ui-svg>
     {{intl:appName}}
     </a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">

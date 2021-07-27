@@ -65,5 +65,9 @@ class AppRegister extends UIComponent {
     var password = getField('password')!;
 
     var newUSer = await SYS.register(name, username, email, password);
+
+    if (newUSer != null) {
+      UINavigator.navigateTo('home');
+    }
   }
 }

@@ -22,18 +22,19 @@ class AppTerms extends UIComponent {
 
     var resourceContent = await intlResourceUri.resolveResourceContent();
 
-    var uiDocument =
-        UIDocument(content, resourceContent, classes: 'terms-panel shadow bg-blur', id: 'terms-div');
+    var uiDocument = UIDocument(content, resourceContent,
+        classes: 'terms-panel shadow bg-blur', id: 'terms-div');
 
     return [
       '''
       <ui-template class="text-right p-2">
-        <div onclick="${ _print.dsx() }" class="d-inline-block" data-toggle="tooltip" title="{{intl:print}}">
-          <ui-svg width="20px" height="20px" src="${ BootstrapIcons.getIconPath('printer-fill') }"></ui-svg><br>
+        <div onclick="${_print.dsx()}" class="d-inline-block" data-toggle="tooltip" title="{{intl:print}}">
+          <ui-svg width="20px" height="20px" src="${BootstrapIcons.getIconPath('printer-fill')}"></ui-svg><br>
         </div>
       </ui-template>
       ''',
-      uiDocument];
+      uiDocument
+    ];
   }
 
   void _print() {

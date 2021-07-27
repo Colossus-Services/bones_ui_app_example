@@ -44,7 +44,8 @@ class AppSys {
     return user;
   }
 
-  Future<User?> register(String name, String username, String email, String password) async {
+  Future<User?> register(
+      String name, String username, String email, String password) async {
     var response = await client.post('register');
 
     if (response.isNotOK) {
@@ -70,7 +71,6 @@ class AppSys {
 
     return double.parse('$rate');
   }
-
 }
 
 class User {

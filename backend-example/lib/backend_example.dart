@@ -19,12 +19,12 @@ class MyBaseModule extends APIModule {
     routes.post(
         'foo', (request) => APIResponse.ok('Hi[POST]! ${request.parameters}'));
 
-    routes.any('time', (request) => APIResponse.ok(DateTime.now(), mimeType: 'text/plain'));
+    routes.any('time',
+        (request) => APIResponse.ok(DateTime.now(), mimeType: 'text/plain'));
 
     routes.any('404',
         (request) => APIResponse.notFound(payload: '404: ${request.path}'));
 
-    routes.any('err',
-            (request) => APIResponse.error(error: 'ERROR!'));
+    routes.any('err', (request) => APIResponse.error(error: 'ERROR!'));
   }
 }

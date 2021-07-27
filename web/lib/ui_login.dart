@@ -57,6 +57,6 @@ class AppLogin extends UIComponent {
 
     var user = await SYS.doLogin(email, password);
 
-    btnLogin.stopLoading(user != null , errorMessage: msgLoginError.build());
+    btnLogin.stopLoading(user != null, errorMessage: msgLoginError.build());
   }
 }
