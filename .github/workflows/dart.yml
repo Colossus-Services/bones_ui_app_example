@@ -24,6 +24,7 @@ jobs:
         run: |
           dart --version
           uname -a
+          pwd
       - name: Install dependencies
         run: dart pub get
       - name: dart format
@@ -52,6 +53,7 @@ jobs:
         run: |
           dart --version
           uname -a
+          pwd
       - name: Install dependencies
         run: dart pub get
       - name: dart format
