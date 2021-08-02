@@ -47,7 +47,7 @@ class AppLogin extends UIComponent {
   </div>
   ''';
 
-  MessageBuilder get msgLoginError => MESSAGES.msg('loginError');
+  MessageBuilder get msgLoginError => messages.msg('loginError');
 
   void actionLogin() async {
     var email = getField('email')!;
@@ -55,7 +55,7 @@ class AppLogin extends UIComponent {
 
     var btnLogin = getRenderedUIComponentById('btn-login') as UIButtonLoader;
 
-    var user = await SYS.doLogin(email, password);
+    var user = await sys.doLogin(email, password);
 
     btnLogin.stopLoading(user != null, errorMessage: msgLoginError.build());
   }

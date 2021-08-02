@@ -18,8 +18,8 @@ class AppRoot extends UIRoot {
 
   @override
   Future<bool> initializeLocale(String locale) {
-    intlMessageResolver = MESSAGES.buildMsg;
-    return MESSAGES.autoDiscoverLocale(locale);
+    intlMessageResolver = messages.buildMsg;
+    return messages.autoDiscoverLocale(locale);
   }
 
   AppTopMenu? _appMenu;

@@ -24,7 +24,7 @@ class AppContent extends UINavigableComponent {
 
   @override
   String? getRouteName(String route) =>
-      MESSAGES.msg(getRouteNameKey(route)!).build();
+      messages.msg(getRouteNameKey(route)!).build();
 
   @override
   String get currentTitle {
@@ -34,7 +34,7 @@ class AppContent extends UINavigableComponent {
 
   @override
   bool isRouteHiddenFromMenu(String route) {
-    if (SYS.isLogged) {
+    if (sys.isLogged) {
       return ['login', 'register'].contains(route);
     } else {
       return false;

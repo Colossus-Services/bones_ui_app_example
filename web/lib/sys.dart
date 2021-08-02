@@ -1,7 +1,7 @@
 import 'package:async_field/async_field.dart';
 import 'package:bones_ui/bones_ui_kit.dart';
 
-final AppSys SYS = AppSys();
+final AppSys sys = AppSys();
 
 class AppSys {
   static bool get isDevelopment => isUriBaseLocalhost();

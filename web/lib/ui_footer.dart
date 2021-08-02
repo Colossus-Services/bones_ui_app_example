@@ -8,7 +8,7 @@ import 'sys.dart';
 class AppFooter extends UIComponent {
   AppFooter(Element? parent) : super(parent);
 
-  AsyncField<double> get btcUsd => SYS.btcUsd;
+  AsyncField<double> get btcUsd => sys.btcUsd;
 
   @override
   dynamic render() => '''
